@@ -12,3 +12,12 @@ The multiple R-squared tells us the overall fit the model has on the dataset. Th
 
 ![regression](images/linear_regression_analysis.png)
 
+## Summary Statistics on Suspension Coils
+
+Design specifications dictate that the variance of the supsension coil must not exceed 100 pounds per square inch (PSI). Looking at the data below, the variance is 67 PSI. Therefore, the specifications appear to be met. However, when breaking down the variance by each lot, we see that lot 3 has a variance of 107 PSI. As a result, we must conclude that Lot 1 and 2 meet design specifications but Lot 3 does not. This abberation must be reported to the designated personnell as soon as possible. 
+
+![overall_summary](images/overall_summary.png)
+
+![lot_summary](images/lot_summary.png)
+
+## 
