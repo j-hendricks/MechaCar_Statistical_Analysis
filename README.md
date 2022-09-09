@@ -33,3 +33,11 @@ The mean pressure for all MechaCars is 1500 PSI. Performing a t-test on the whol
 ![lot3](images/t_test_Lot3.png)
 
 ## Study Design: MechaCar vs Competition
+
+There are additional statisticall studies that could determine how MechaCar performs against the competition. One metric is horsepower, which is a measure of how quickly a car can accelerate. Having high horsepower is important for driving on high-ways and carrying large amounts of weight.
+
+For such a test, the null hypothesis would be that MechaCars do not have higher horespower than cars from competitors. The alternative hypothesis would be that Mechacars do have higher horsepower. 
+
+For this analysis, a one-directional, two-sample t-test could be performed, with a cut-off value of 0.05 for the p-value. This would tell us if the difference between horespowers is simply due to chance or because of the car brand itself. The test would be one-directional because we are stating that the horsepower of MechaCars would be higher. 
+
+Gathering this data would likely be feasible because horsepower is a common metric recorded for vehicles. To obtain the data, car websites could be scraped using Python and Beautiful Soup. This is an excellent idea for a future project. 
