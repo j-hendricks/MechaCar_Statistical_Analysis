@@ -20,4 +20,16 @@ Design specifications dictate that the variance of the supsension coil must not 
 
 ![lot_summary](images/lot_summary.png)
 
-## 
+## T-Tests on Suspension Coils
+
+The mean pressure for all MechaCars is 1500 PSI. Performing a t-test on the whole sample yields a p-value of 0.06, so the variation in pressure for the sample is likely due just to chance. When performing the t test on each lot, the p-values are different. The p-value for Lot 1 and Lot 2 are 1 and 0.61, respectively. Therefore the variation in pressure for Lot 1 and Lot 2 is due to only chance. However, the p-value for Lot 3 is 0.042, so the variation in pressure is too large to be due just to chance. This result corroborates the results of the last section, where it was concluded that Lot 3 failed to meet specifications.
+
+![allLots](images/t_test_overall.png)
+
+![lot1](images/t_test_Lot1.png)
+
+![lot2](images/t_test_Lot2.png)
+
+![lot3](images/t_test_Lot3.png)
+
+## Study Design: MechaCar vs Competition
