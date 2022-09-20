@@ -1,5 +1,9 @@
 # MechaCar_Statistical_Analysis
 
+## Overview
+
+The following analysis uses statistical methods to determine the quality of MechaCar vehicles. The goals are 1) to verify that production standards are being met 2) to determine what factors of these vehicles are correlated with each other. 
+
 ## Linear Regression to Predict MPG
 
 The image below shows the summary of the multiple regression analysis. The overall p-value for this analysis is 5.35e-11. Since this value is less than the cut-off value of 0.05, we reject the null and conclude that the slope of the regression model is non-zero.
